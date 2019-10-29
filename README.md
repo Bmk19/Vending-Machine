@@ -15,8 +15,6 @@ So that I can collect money from the customer
 
 The vending machine will accept valid coins and notes (R100, R20, R10 notes; R5, R2, R1, 50c, 20c, 10c coins). When a valid coin is inserted the amount of the coin will be added to the current amount and the display will be updated. When there are no coins inserted, the machine displays INSERT COIN. Rejected coins are placed in the coin return.
 
-NOTE: The temptation here will be to create Coin objects that know their value. However, this is not how a real vending machine works. Instead, it identifies coins by their weight and size and then assigns a value to what was inserted. You will need to do something similar. This can be simulated using strings, constants, enums, symbols, or something of that nature.
-
 ### Select Product
 
 As a vendor
@@ -24,7 +22,7 @@ I want customers to select products
 So that I can give them an incentive to put money in the machine
 
 There are five products: Bar one for R8.00, Soft Drink for R12.50, Simba Chips for R6.50, Stimrol gum for R10.50, a roll of cookies for R13.50.
-When the respective item is typed in for order, and enough money has been inserted, the product is dispensed and the machine displays: 
+When the respective item is typed in for order, and enough money has been inserted, the product is dispensed and the machine displays:\ 
 You got [item]\
 Change returned: [x.xx]\
 buy something else? (y/n): 
