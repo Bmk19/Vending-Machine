@@ -1,6 +1,6 @@
 # Vending Machine
 
-Right now, the code runs in the console. A GUI will be added in the future.
+Right now, the code may run in the console. A GUI can be added in the future.\
 In this exercise you will build the brains of a vending machine. It will accept money, return change, track inventory levels, and dispense products. All the things that you might expect a vending machine to accomplish.
 
 
