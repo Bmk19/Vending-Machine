@@ -90,11 +90,11 @@ class VendingMachine:
 
 def vending():
     machine = VendingMachine()
-    item1 = Item('choc', 1.5, 2) #Item name, price, stock.
-    item2 = Item('pop', 1.75, 1)
-    item3 = Item('chips', 2.0, 3)
-    item4 = Item('gum', 0.50, 1)
-    item5 = Item('mints', 0.75, 3)
+    item1 = Item('Bar One', 8.00, 2) #Item name, price, stock.
+    item2 = Item('Soft Drink', 12.50, 1)
+    item3 = Item('Simba Chips', 6.50, 3)
+    item4 = Item('Stimrol', 10.50, 1)
+    item5 = Item('Cookies', 13.50, 3)
     machine.addItem(item1) #Add the items to the machine list.
     machine.addItem(item2)
     machine.addItem(item3)
