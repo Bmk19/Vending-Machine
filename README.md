@@ -23,7 +23,8 @@ As a vendor
 I want customers to select products
 So that I can give them an incentive to put money in the machine
 
-There are five products: Bar one for R8.00, Soft Drink for R12.50, Simba Chips for R6.50, Stimrol gum for R10.50, a roll of cookies for R13.50.  When the respective item is typed in for order, and enough money has been inserted, the product is dispensed and the machine displays: 
+There are five products: Bar one for R8.00, Soft Drink for R12.50, Simba Chips for R6.50, Stimrol gum for R10.50, a roll of cookies for R13.50.
+When the respective item is typed in for order, and enough money has been inserted, the product is dispensed and the machine displays: 
 You got [item]
 Change returned: [x.xx]
 buy something else? (y/n): . 
